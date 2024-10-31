@@ -1,0 +1,4 @@
+echo %TIME%
+dir /s /b *.java > sources.txt
+javac -g -Werror -d build @sources.txt
+java -cp build Main
