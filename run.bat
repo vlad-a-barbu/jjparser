@@ -1,4 +1,4 @@
 echo %TIME%
 dir /s /b *.java > sources.txt
-javac -g -Xlint:all -Werror -d build @sources.txt
-java -cp build Main %1
+"C:\Program Files\OpenJDK\jdk-22.0.1\bin\javac.exe" -g -Xlint:all -Werror -d build @sources.txt
+"C:\Program Files\OpenJDK\jdk-22.0.1\bin\java.exe" -cp build Main %1

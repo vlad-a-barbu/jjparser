@@ -24,9 +24,8 @@ public final class JFileReader implements JReader, AutoCloseable {
 
     @Override
     public char read() throws JStreamExhaustedException {
-        if (this.currentPosition == this.buffer.size()) {
+        if (this.currentPosition == this.buffer.size())
             this.readNextLine();
-        }
         return this.buffer.get(this.currentPosition++);
     }
 
@@ -51,9 +50,7 @@ public final class JFileReader implements JReader, AutoCloseable {
         }
         if (line == null)
             throw new JStreamExhaustedException();
-        for (char c : line.toCharArray()) {
-            buffer.add(c);
-        }
+        line.chars().forEach(c -> buffer.add((char) c));
     }
 
     @Override

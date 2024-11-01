@@ -15,7 +15,7 @@ class Main {
 	public static void main(String[] args) throws JStreamExhaustedException, FileNotFoundException, IOException {
 
 		if (args.length < 1)
-			throw new IllegalArgumentException("invalid args: pass path to json input");
+			throw new IllegalArgumentException("invalid args: pass path to json file");
 
 		try (var reader = new JFileReader(args[0])) {
 			var option = JParser.parse(reader);

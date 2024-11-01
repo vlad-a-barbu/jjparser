@@ -16,8 +16,7 @@ public final class JStringReader implements JReader {
 
     @Override
     public char read() throws JStreamExhaustedException {
-        int length = this.stream.length();
-        if (this.currentPosition == length)
+        if (this.currentPosition == this.stream.length())
             throw new JStreamExhaustedException();
         return this.readChar();
     }

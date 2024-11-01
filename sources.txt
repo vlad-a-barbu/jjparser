@@ -1,0 +1,15 @@
+C:\Users\vlad.barbu\source\repos\proxy\src\json\parsers\JArrayParser.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\parsers\JBaseParser.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\parsers\JIntParser.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\parsers\JParser.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\parsers\JStringParser.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\parsers\JWhitespaceParser.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\tokens\JArray.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\tokens\JInt.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\tokens\JString.java
+C:\Users\vlad.barbu\source\repos\proxy\src\json\tokens\JToken.java
+C:\Users\vlad.barbu\source\repos\proxy\src\main\Main.java
+C:\Users\vlad.barbu\source\repos\proxy\src\readers\JFileReader.java
+C:\Users\vlad.barbu\source\repos\proxy\src\readers\JReader.java
+C:\Users\vlad.barbu\source\repos\proxy\src\readers\JStringReader.java
+C:\Users\vlad.barbu\source\repos\proxy\src\readers\exceptions\JStreamExhaustedException.java
